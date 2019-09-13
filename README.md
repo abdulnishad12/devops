@@ -3,10 +3,11 @@
 ##### Configure Jenkins to send Rest api request in JSON format using Https Plugin 
 ##### Write pipeline script to send the API request to perform some task in the remote application
 
-### How to run application [json] using docker (sample)
+#### How to run application [json] using docker (sample)
 1. Install docker in Linux/Windows Machine
 2. docker login and give credentials
 3. docker pull dockervan/nagios-api
 4. docker run -d  -p 0.0.0.0:8080:8080 dockervan/nagios-api
 
-Now your application can be find in http://<ip>:8080
+Now your application can be find in http://{ip}:8080
+#### Next how to write a api-call with json input from CI
