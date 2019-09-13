@@ -10,7 +10,7 @@
 4. docker run -d  -p 0.0.0.0:8080:8080 dockervan/nagios-api
 
 Now your application can be find in http://{ip}:8080
-#### Next how to write a api-call with json input from CI
+#### Next how to write a api-call with json input from CI (Refer :https://github.com/jenkinsci/http-request-plugin)
 
 httpRequest (consoleLogResponseBody: true,
       contentType: 'APPLICATION_JSON',
