@@ -18,3 +18,5 @@ httpRequest (consoleLogResponseBody: true,
       requestBody: command,
       url: "${machine}/_aliases",
       validResponseCodes: '200')
+
+create a parameter with 'url' as variable and paste the script in jenkinsfile.groovy in pipeline
