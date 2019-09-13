@@ -23,3 +23,6 @@ create a parameter with 'url' as variable and paste the script in jenkinsfile.gr
 
 #### what will be the URL then??
 Please refer this link: https://github.com/zorkian/nagios-api [Using the API ]
+
+#### What's next??
+Replace Nagios with block64 
