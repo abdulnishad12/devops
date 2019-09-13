@@ -11,3 +11,10 @@
 
 Now your application can be find in http://{ip}:8080
 #### Next how to write a api-call with json input from CI
+
+httpRequest (consoleLogResponseBody: true,
+      contentType: 'APPLICATION_JSON',
+      httpMode: 'POST',
+      requestBody: command,
+      url: "${machine}/_aliases",
+      validResponseCodes: '200')
