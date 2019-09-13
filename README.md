@@ -20,3 +20,6 @@ httpRequest (consoleLogResponseBody: true,
       validResponseCodes: '200')
 
 create a parameter with 'url' as variable and paste the script in jenkinsfile.groovy in pipeline
+
+#### what will be the URL then??
+Please refer this link: https://github.com/zorkian/nagios-api [Using the API ]
