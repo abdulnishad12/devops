@@ -32,3 +32,13 @@ Replace Nagios with block64
 ---
 10.30.ncrypt with unique password
 json file = {server ip , svc_temp , 10.30}  // json file creation
+json template : body: 
+{
+  "ip": "10.81.99.101",
+  "domain": "block64.local",
+  "username": "root",
+   "password":  "node",
+   "system_type": "nix",  for linux / win for windows
+    "timeout": 90
+}
+
