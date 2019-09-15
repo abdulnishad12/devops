@@ -26,3 +26,9 @@ Please refer this link: https://github.com/zorkian/nagios-api [Using the API ]
 
 #### What's next??
 Replace Nagios with block64 
+
+
+
+---
+10.30.ncrypt with unique password
+json file = {server ip , svc_temp , 10.30}  // json file creation
