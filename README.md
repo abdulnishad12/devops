@@ -41,4 +41,6 @@ json template : body:
    "system_type": "nix",  for linux / win for windows
     "timeout": 90
 }
-
+ withEnv(["VAR_A=${line[0]}","VAR_B=${pass}"]){
+    powershell label: '', script: ''' @{ ip= "$env:VAR_B"; domain= "block64.local"; username= "Administrator"; password= "$env:VAR_A"; system_type= "win"; timeout= 90 } | ConvertTo-Json -Compress '''
+    
